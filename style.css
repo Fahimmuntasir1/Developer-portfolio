@@ -14,33 +14,35 @@ body{
 }
 section{
     display: flex;
-    /* margin-top: 30px; */
+    margin-bottom: 130px;
 }
 .top-banner{
     background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
 }
-h1{
+.half-width h1{
     font-size: 50px;
     font-weight: 600;
     margin-top: 60px;
 }
-h2{
+.half-width h2{
     font-size: 50px;
     font-weight: 600;
 }
 .half-width .orange{
     color: orange;
 }
-h3{
+.half-width h3{
     font-family: 'Poiret One', cursive;
     font-weight: 900;
     margin: 12px 0;
+    background-color: rgb(255, 196, 1);
 }
 .half-width{
     width: 50%;
     margin-left: 5%;
     padding-left: 2%;
+    
     
 }
 .half-width img{
@@ -61,4 +63,12 @@ h3{
 }
 .hire-btn:hover{
     background: linear-gradient(45deg, tomato, lightsalmon);
+}
+.Dream-section{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.half-width h4{
+    font-size: 40px;
 }
