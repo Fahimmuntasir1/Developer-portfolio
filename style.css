@@ -107,3 +107,13 @@ body{
     border-image: linear-gradient(180deg, blue, cyan);
     border-image-slice: 1;
 }
+Footer{
+    background-color: cyan;
+    padding: 20px 0;
+}
+Footer p{
+    text-align: center;
+}
+Footer p .pg{
+    font-weight: bold;
+}
